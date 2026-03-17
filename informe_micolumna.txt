@@ -1,0 +1,218 @@
+Informe de Análisis — micolumna.com.ar
+
+Preparado para rediseño web — Marzo 2026
+
+------------------------------------------------------------------------
+
+1. Descripción General del Sitio
+
+Sitio web médico para el consultorio del Dr. Alberto Miceli,
+especialista en columna vertebral ubicado en Villa Devoto, Buenos Aires.
+Atiende junto a la Dra. Carolina Moughty Cueto (Neurocirugía). El sitio
+está orientado a captar pacientes que buscan tratamiento para patologías
+de columna, tanto de CABA como del interior del país.
+
+------------------------------------------------------------------------
+
+2. Estructura Actual del Sitio
+
+Páginas identificadas
+
+-   index.html — Inicio
+-   Patologías (subpáginas): Escoliosis, Lumbalgia, Artrosis,
+    Lumbociática, Latigazo Cervical, Espondilolistesis
+-   Recomendaciones (subpáginas): Ejercicios lumbares, Ejercicios
+    cervicales, Higiene de columna
+-   Preguntas frecuentes (subpáginas): Dolor lumbar, Hernia de disco,
+    Escoliosis, Cirugía de columna
+-   contacto.html — Formulario de contacto
+
+Secciones del Home (en orden)
+
+1.  Barra superior de contacto (teléfonos, WhatsApp, mail)
+2.  Navbar con logo y menús desplegables
+3.  Hero con llamado a la acción (“Agendá tu turno” vía WhatsApp)
+4.  Tres columnas de servicios: Tratamiento conservador / Procedimientos
+    mínimamente invasivos / Cirugía convencional
+5.  Sección de especialistas (Dr. Miceli + Dra. Moughty Cueto)
+6.  Sección para pacientes del interior del país
+7.  Formulario de contacto con selector de especialidad
+8.  Footer con horarios y datos
+
+------------------------------------------------------------------------
+
+3. Contenido e Información Clave a Preservar
+
+  -----------------------------------------------------------------------
+  Dato                                Valor
+  ----------------------------------- -----------------------------------
+  Nombre del médico principal         Dr. Miceli Alberto
+
+  Especialidad                        Traumatólogo — Ortopedia y
+                                      Traumatología (UBA)
+
+  Membresías                          AAOT, SAPCV, AOSpine
+
+  Médica especialista                 Dra. Moughty Cueto Carolina —
+                                      Neurocirugía (UBA)
+
+  Cargos de la Dra. Moughty           Hosp. Juan A. Fernández
+                                      (coordinadora Nervios Periféricos),
+                                      Instituto Oncológico Ángel Roffo
+
+  Membresía de la Dra.                AANC (Asociación Argentina de
+                                      Neurocirugía)
+
+  Dirección                           Pedro Morán 3212, P 1°, Dpto. 7,
+                                      Villa Devoto
+
+  Horarios                            Lunes, Martes y Miércoles de 15:00
+                                      a 18:00
+
+  Teléfono fijo                       (011) 4502-5720
+
+  WhatsApp                            11 6656 3212
+
+  Email                               micolumna@gmail.com
+
+  Tagline                             “Medicina para que te sigas
+                                      moviendo”
+
+  Especialidades ofrecidas            Traumatología y Neurocirugía
+  -----------------------------------------------------------------------
+
+Tipos de tratamiento mencionados
+
+-   Tratamiento conservador: Fisioterapia, Ejercicios, Medicación
+-   Procedimientos mínimamente invasivos: Vertebroplastía, Cifoplastía,
+    Disectomía
+-   Cirugía convencional: Deformidades, Artrodesis, Fracturas
+
+------------------------------------------------------------------------
+
+4. Problemas Identificados
+
+Diseño y UX
+
+-   El hero duplica el mismo bloque de texto y CTA (aparece dos veces en
+    el HTML), lo cual es un error de código.
+-   Los textos de las secciones de servicios son muy cortos y genéricos;
+    no transmiten confianza ni diferenciación.
+-   Las imágenes usan # como atributo alt en lugar de descripciones
+    reales (mala accesibilidad y SEO).
+-   La imagen de sección (section-img.png) se reutiliza en múltiples
+    secciones sin variación visual.
+-   No hay fotos reales de los médicos visibles en el contenido
+    principal.
+
+Contenido
+
+-   La sección “Nuestros especialistas” es texto plano sin jerarquía
+    visual clara.
+-   No hay testimonios de pacientes ni casos de éxito.
+-   No hay información sobre obras sociales o prepagas aceptadas.
+-   No se indica si ofrecen teleconsulta o solo atención presencial.
+-   La sección de pacientes del interior es muy breve, a pesar de ser un
+    diferencial importante del consultorio.
+-   El formulario de contacto tiene muy pocos campos (solo selector de
+    especialidad); le faltan nombre, teléfono y mensaje.
+-   No se indica el tiempo estimado de respuesta al formulario.
+
+SEO y Técnico
+
+-   El <title> de la página es genérico y podría mejorar para búsquedas
+    locales.
+-   No se detectan meta descripciones en el HTML.
+-   Las imágenes tienen alt="#" en lugar de descripciones reales.
+-   No hay schema markup (structured data) para médico o consultorio, lo
+    que perjudica la visibilidad en Google.
+-   No hay mapa de Google Maps embebido para facilitar cómo llegar.
+-   No hay OpenGraph tags para compartir en redes sociales.
+
+Navegación
+
+-   El menú tiene muchas subpáginas anidadas; puede ser difícil de
+    manejar en mobile.
+-   El botón de WhatsApp flotante podría ser más prominente.
+
+------------------------------------------------------------------------
+
+5. Mejoras Recomendadas para la Nueva Versión
+
+Estructura y Contenido
+
+-   Agregar foto real de cada médico en la sección de especialistas.
+-   Incluir una sección de testimonios o reseñas de pacientes.
+-   Expandir la sección de pacientes del interior con pasos claros:
+    consulta → coordinación → internación → controles postoperatorios.
+-   Agregar sección de obras sociales y prepagas aceptadas.
+-   Mejorar el formulario de contacto con campos completos: nombre,
+    teléfono, especialidad, motivo de consulta y mensaje.
+-   Incorporar mapa de Google Maps embebido.
+-   Indicar si se ofrece teleconsulta.
+
+Diseño
+
+-   Modernizar el hero con imagen de fondo impactante, tipografía más
+    grande y mayor contraste.
+-   Agregar iconografía médica clara para las tres categorías de
+    tratamiento.
+-   Separar visualmente las secciones con colores o fondos alternados.
+-   Asegurar diseño mobile-first con menú hamburguesa bien implementado.
+-   Corregir la duplicación del bloque hero en el HTML.
+
+SEO
+
+-   Agregar meta descriptions a cada página.
+-   Corregir atributos alt de todas las imágenes con descripciones
+    reales.
+-   Implementar schema markup de tipo Physician y MedicalOrganization.
+-   Añadir OpenGraph tags para compartir en redes sociales.
+-   Mejorar el <title> incluyendo patologías clave y ubicación (Villa
+    Devoto / Buenos Aires).
+
+Confianza y Conversión
+
+-   Botón de WhatsApp siempre visible y flotante en todas las páginas.
+-   Añadir los logos de las asociaciones médicas (AAOT, SAPCV, AOSpine)
+    como insignias de confianza.
+-   Sección de FAQ con acordeones desplegables para mejor usabilidad.
+-   Agregar indicadores de credenciales: años de experiencia, cantidad
+    de pacientes atendidos (si está disponible).
+
+------------------------------------------------------------------------
+
+6. Resumen para la IA que Rediseñará el Sitio
+
+Tipo de sitio: Consultorio médico — Columna vertebral (Traumatología +
+Neurocirugía)
+
+Público objetivo: Personas con dolor de columna en CABA y el interior
+del país
+
+Objetivo principal del sitio: Convertir visitas en turnos médicos (vía
+WhatsApp o formulario)
+
+Tono de comunicación: Profesional, cercano, transmitir confianza y
+experiencia
+
+CTA principal: “Agendá tu turno” → enlaza a WhatsApp (5491166563212)
+
+Paleta y estilo actual: No especificada en el HTML analizado; inferir
+del logo (/img/logo.png)
+
+Lo que debe mantenerse igual: - Toda la información de contacto - Los
+nombres y credenciales de los médicos - La estructura de menú
+(Patologías / Recomendaciones / Preguntas frecuentes) - El tagline
+“Medicina para que te sigas moviendo” - Los tres tipos de tratamiento y
+sus nombres técnicos
+
+Lo que debe mejorarse: - Diseño visual general (hero, tarjetas de
+especialistas, secciones) - Formulario de contacto (más campos) -
+Accesibilidad (atributos alt) - SEO on-page (meta tags, schema markup) -
+Sección de pacientes del interior (expandir significativamente) - Añadir
+testimonios, obras sociales y mapa
+
+------------------------------------------------------------------------
+
+Informe generado con Claude — micolumna.com.ar — Marzo 2026

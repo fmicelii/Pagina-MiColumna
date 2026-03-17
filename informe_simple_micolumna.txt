@@ -1,0 +1,97 @@
+Cómo debería ser la nueva micolumna.com.ar
+
+Informe simplificado — Marzo 2026
+
+------------------------------------------------------------------------
+
+¿Qué es el sitio?
+
+Una página web para un consultorio médico especializado en columna
+vertebral. El objetivo es simple: que la gente que tiene dolor de
+columna encuentre el sitio, confíe en los médicos y saque un turno.
+
+------------------------------------------------------------------------
+
+Inicio (Home)
+
+Lo primero que ve el visitante tiene que transmitir confianza
+inmediatamente. Una foto profesional de fondo (consultorio, médicos, o
+imagen médica de columna), el nombre del doctor grande y visible, y un
+botón llamativo que diga “Agendá tu turno por WhatsApp”. Nada más en esa
+primera pantalla. Simple y directo.
+
+Más abajo, tres bloques explicando los tipos de tratamiento que ofrecen
+(conservador, mínimamente invasivo y cirugía), con un ícono médico cada
+uno y una descripción un poco más desarrollada que la actual.
+
+------------------------------------------------------------------------
+
+Sección de médicos
+
+Foto real de cada médico, su nombre, especialidad y dos o tres líneas
+con sus credenciales más importantes. Que se vea como personas reales,
+no como texto suelto.
+
+------------------------------------------------------------------------
+
+Testimonios
+
+Una sección con comentarios de pacientes reales. Esto genera mucha
+confianza, especialmente para alguien que está buscando médico por
+primera vez.
+
+------------------------------------------------------------------------
+
+Pacientes del interior
+
+Esta sección merece más espacio. Muchos consultorios no coordinan viajes
+para pacientes de otras provincias, así que es un diferencial
+importante. Habría que explicar paso a paso cómo funciona: desde la
+consulta inicial hasta la recuperación, incluyendo que ayudan a
+organizar alojamiento e internación.
+
+------------------------------------------------------------------------
+
+Obras sociales y prepagas
+
+Una lista o mención de qué coberturas aceptan. Es una de las primeras
+cosas que busca la gente y actualmente no está en el sitio.
+
+------------------------------------------------------------------------
+
+Formulario de contacto
+
+Más completo que el actual. Pedir nombre, teléfono, especialidad por la
+que consulta y un campo para escribir el motivo. También aclarar que
+responden en X horas para que el visitante sepa qué esperar.
+
+------------------------------------------------------------------------
+
+Mapa y cómo llegar
+
+Un mapa de Google Maps embebido con la dirección del consultorio. Básico
+pero muy útil.
+
+------------------------------------------------------------------------
+
+Menú de navegación
+
+Mantener las secciones actuales (Patologías, Recomendaciones, Preguntas
+frecuentes) pero asegurarse de que funcione bien en el celular, que es
+desde donde la mayoría de la gente va a entrar.
+
+------------------------------------------------------------------------
+
+Botón de WhatsApp flotante
+
+Un botón de WhatsApp visible en todo momento, en todas las páginas, que
+no desaparezca al hacer scroll. Es el canal de contacto más importante
+del consultorio.
+
+------------------------------------------------------------------------
+
+Estilo visual general
+
+Colores que transmitan salud y profesionalismo (azules, blancos, verdes
+suaves). Tipografía clara y legible. Secciones bien separadas para que
+sea fácil de leer. Que se vea igual de bien en computadora y en celular.
